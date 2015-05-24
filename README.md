@@ -21,7 +21,8 @@ Original dataset files:
   - 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
   
 R Script file (r_analysis.R):
-    ## Requires packages, intall if necessary
+
+    ## Requires packages, install if necessary
     ## install.packages("plyr");install.packages("dplyr"); install.packages("reshape2")
     ## library(plyr); library(dplyr);library("reshape2")
   
