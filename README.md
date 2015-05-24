@@ -22,8 +22,8 @@ Original dataset files:
   
 R Script file (r_analysis.R):
     ## Requires packages, intall if necessary
-    ##install.packages("plyr");install.packages("dplyr"); install.packages("reshape2")
-    #library(plyr); library(dplyr);library("reshape2")
+    ## install.packages("plyr");install.packages("dplyr"); install.packages("reshape2")
+    ## library(plyr); library(dplyr);library("reshape2")
   
     ## Activity factor labels, and measured features for both training and test sets.
     aclabel <- read.table("./activity_labels.txt", header=FALSE, sep="", col.names=c("level","label"))
@@ -79,12 +79,12 @@ R Script file (r_analysis.R):
 Data Dictionary for tidy_data.txt file:
   - Subject: integers from 1 to 30
   - Activity: factors 
-  - - 1 WALKING
-  - - 2 WALKING_UPSTAIRS
-  - - 3 WALKING_DOWNSTAIRS
-  - - 4 SITTING
-  - - 5 STANDING
-  - - 6 LAYING
+    - 1 WALKING
+    - 2 WALKING_UPSTAIRS
+    - 3 WALKING_DOWNSTAIRS
+    - 4 SITTING
+    - 5 STANDING
+    - 6 LAYING
   - Variables for the mean and standard deviation for each featured measurement.  Note( the chars '-','('. and ')' in original variable names were replaced with '.':
     - tBodyAcc.mean...X
     - tBodyAcc.mean...Y
